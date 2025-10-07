@@ -193,7 +193,7 @@ class SecurityMonitoringDashboard:
             # Display as table
             st.dataframe(
                 df_timeline,
-                width='stretch'
+                width='stretch',
                 hide_index=True
             )
         else:
