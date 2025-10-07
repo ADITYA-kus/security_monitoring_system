@@ -1,3 +1,8 @@
+import warnings
+from sklearn.exceptions import InconsistentVersionWarning
+
+# Suppress the version warning
+warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
@@ -188,7 +193,7 @@ class SecurityMonitoringDashboard:
             # Display as table
             st.dataframe(
                 df_timeline,
-                use_container_width=True,
+                width='stretch',
                 hide_index=True
             )
         else:
