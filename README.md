@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 security_monitoring_system/
 ├──  Core Application Files
 │   ├── security_dashboard.py          # Main Streamlit UI
@@ -56,3 +57,6 @@ SECURITY DASHBOARD
 • Real-time Entity Monitoring
 • Predictive Location Insights
 • 12-hour Inactivity Alerts
+=======
+hackthon
+>>>>>>> 1890c9125c7da080f34a486263f2d4f50e7386e8
